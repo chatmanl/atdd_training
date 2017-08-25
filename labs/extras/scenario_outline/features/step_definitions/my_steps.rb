@@ -1,11 +1,33 @@
-And(/^it is the (.*) property of addition$/) do |property|
-  #nothing to do here
+
+
+Given(/^I am on the Budget rental car site$/) do
+
 end
 
-When(/^I add (.*) and (.*)$/) do |num1, num2|
-  @result = num1.to_i + num2.to_i
+When(/^I search for cars available for the weekend$/) do
+  pending
 end
 
-Then(/^I get (.*)$/) do |result|
-  expect(@result).to eq result.to_i
+Then(/^rental rates for a Compact car displayed$/) do
+  pending
+end
+
+When(/^I search for available cars$/) do
+  pending
+end
+
+Then(/^then the Pay at Counter rate is higher then the Pay Now rate$/) do
+  pending
+end
+
+Given(/^a list of available vehicles$/) do
+  pending
+end
+
+When(/^I open a vehicle's information$/) do
+  pending
+end
+
+Then(/^the mpg for the vehicle is shown$/) do
+  pending
 end

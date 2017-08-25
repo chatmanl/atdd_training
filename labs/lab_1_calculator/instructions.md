@@ -18,7 +18,7 @@ Test drive the development of a Calculator module based on the acceptance criter
 - should return an integer
 - the order of operation should matter (not commutative)
 - subtracting zero should return the first integer
-- subtacting an integer from itself should return zero
+- subtracting an integer from itself should return zero
 - should accept more than 2 numbers at a time
 
 ### Multiplication
